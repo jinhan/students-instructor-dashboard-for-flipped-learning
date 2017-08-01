@@ -7,6 +7,7 @@
 **시스템 구조**
 ![](https://user-images.githubusercontent.com/3071179/28836306-55dafe3e-7723-11e7-97e8-6f4b5ab123b2.png)
 
+
 **학습자용 대시보드 (Open edX platform path)**
 - lms > djangoapps > courseware > dashboard_data.py
 - lms > djangoapps > courseware > grades.py
@@ -14,14 +15,17 @@
 - lms > templates > courseware > progress.html
 - lms > templates > courseware > upper_dashboard.js
 
+
 **교수자용 대시보드 (Open edX platform path)**
 - lms > djangoapps > instructor > views > instructor_dashboard.py
 - lms > templates > instructor > instructor_dashboard_2 > instructor_dashboard_2.html
 - lms > templates > instructor > instructor_dashboard_2 > dashboard.html
 - lms > templates > instructor > instructor_dashboard_2 > dashboard.js
 
+
 **학습자용 대시보드 화면**
 ![students](https://user-images.githubusercontent.com/3071179/28835846-c32b46f8-7721-11e7-8607-3d418be3593e.png)
+
 
 **교수자용 대시보드 화면**
 ![instructor](https://user-images.githubusercontent.com/3071179/28835845-c2f8a680-7721-11e7-9043-73f2df442a27.png)
