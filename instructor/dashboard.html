@@ -1,0 +1,59 @@
+<%! from django.utils.translation import ugettext as _ %>
+<%page args="section_data"/>
+
+<%namespace name='static' file='/static_content.html'/>
+<%!
+from django.utils.translation import ugettext as _
+from django.core.urlresolvers import reverse
+from util.date_utils import get_time_display, DEFAULT_SHORT_DATE_FORMAT
+from django.conf import settings
+from django.utils.http import urlquote_plus
+%>
+
+<%namespace name="dashboard" file="/instructor/instructor_dashboard_2/dashboard.js" />
+<script>
+	${dashboard.body(section_data['instructor_dashboard_data'])}
+</script>
+<!--script type="text/javascript" src="${static.url('js/instructor_dashboard/dashboard.js')}"></script--> <!-- jungmin -->
+<!--link rel="stylesheet" href="${static.url('css/dashboard_table.css')}"-->
+<style>
+#table_container{
+    width : 100%;
+    height : 100%;
+    text-align : center;
+}
+
+table{
+    width : 100%;
+    height : 100%;
+    border-collapse : collapse;
+    border : 1px gray solid;
+}
+
+th, td{
+    border : 1px gray solid;
+    padding: 5px 10px;
+    margin : auto;
+    text-align : center;
+    vertical-align : middle;
+    word-wrap: break-word;
+}
+
+td {
+    font-size: 12px;
+}
+
+.small_table {
+    margin-bottom: 10px;
+}
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div class = "table_container">
+    </div>
+</body>
+</html>
