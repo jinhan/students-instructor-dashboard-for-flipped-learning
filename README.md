@@ -24,8 +24,7 @@
 
 
 **학습자용 대시보드 화면**
-![students](https://user-images.githubusercontent.com/3071179/28835846-c32b46f8-7721-11e7-8607-3d418be3593e.png)
-
+![](https://user-images.githubusercontent.com/3071179/28836624-9d7964e6-7724-11e7-91e7-8d4b20f731e1.png)
 
 **교수자용 대시보드 화면**
-![instructor](https://user-images.githubusercontent.com/3071179/28835845-c2f8a680-7721-11e7-9043-73f2df442a27.png)
+![](https://user-images.githubusercontent.com/3071179/28835845-c2f8a680-7721-11e7-9043-73f2df442a27.png)
